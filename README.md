@@ -9,9 +9,17 @@ This API uses Jersey Web Services framework with Maven.
 
 # How to run
 * Import the WAR file named "restservice"
+![picture](https://github.com/jpham14/phonenumberParser/blob/master/screenshots/ss2.png)
+
 * Target runtime: "New" -> Select Apache Tomcat x8.{version}
+![picture](https://github.com/jpham14/phonenumberParser/blob/master/screenshots/ss4.png)
+
 * Browse for the location you installed Tomcat -> Finish
+![picture](https://github.com/jpham14/phonenumberParser/blob/master/screenshots/ss5.png)
+
 * Right-click on `restservice` -> Run as -> Run on Server
+![picture](https://github.com/jpham14/phonenumberParser/blob/master/screenshots/ss6.png)
+
 * Select Tomcat Server -> Next -> Add resource to Configured -> Finish
 
 # How to use
