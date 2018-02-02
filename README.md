@@ -4,12 +4,15 @@ This API uses Jersey Web Services framework with Maven.
 
 # What you will need
 [Eclipse IDE](http://www.eclipse.org/downloads/packages/release/Neon/3)
+
 [Apache Tomcat 8.x](https://tomcat.apache.org/download-80.cgi)
 
 # How to run
-Import the WAR file named "restservice"
-
-
+* Import the WAR file named "restservice"
+* Target runtime: "New" -> Select Apache Tomcat x8.{version}
+* Browse for the location you installed Tomcat -> Finish
+* Right-click on `restservice` -> Run as -> Run on Server
+* Select Tomcat Server -> Next -> Add resource to Configured -> Finish
 
 # How to use
 ## Web Browser & HTTP Client
